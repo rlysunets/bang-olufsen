@@ -1,4 +1,31 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+# Bang & Olufsen Landing Page
+
+Responsive landing page inspired by Bang & Olufsen design.  
+Built as a portfolio project using modern frontend tools.
+
+## 🚀 Demo
+
+👉 [Live Preview](https://rlysunets.github.io/bang-olufsen/)
+
+## 📸 Preview
+
+![Preview](./src/images/preview.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- SCSS (Sass)
+- JavaScript (ES6)
+- Parcel bundler
+- GitHub Pages (deployment)
+
+---
+
+🎯 Features
+ - Fully responsive layout
+ - Clean and modern UI design
+ - Mobile menu
+ - Smooth section structure
+ - Optimized assets via Parcel
