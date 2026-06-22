@@ -13,7 +13,7 @@
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
     "predeploy": "npm run build",
-    "deploy": "npm run build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Mate Academy",
