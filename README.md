@@ -7,10 +7,6 @@ Built as a portfolio project using modern frontend tools.
 
 👉 [Live Preview](https://rlysunets.github.io/bang-olufsen/)
 
-## 📸 Preview
-
-![Preview](./src/images/preview.png)
-
 ---
 
 ## 🛠️ Tech Stack
