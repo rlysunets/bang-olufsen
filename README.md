@@ -25,3 +25,24 @@ Built as a portfolio project using modern frontend tools.
  - Mobile menu
  - Smooth section structure
  - Optimized assets via Parcel
+
+---
+
+## 🚀 How to run locally
+
+npm install  
+npm start  
+
+## 🏗 Build project
+
+npm run build  
+
+## 🚀 Deploy
+
+npm run deploy  
+
+---
+
+## 👤 Author
+Roman Lysunets – Frontend Developer
+
