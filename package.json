@@ -1,7 +1,8 @@
 {
   "name": "gulp-boilerplate",
   "version": "1.0.0",
-  "description": "Frontend boilerplate based on gulp",
+  "description": "Frontend project built with Parcel",
+  "homepage": "https://rlysunets.github.io/bang-olufsen",
   "scripts": {
     "init": "mate-scripts init",
     "lint": "mate-scripts lint",
@@ -11,6 +12,7 @@
     "test": "npm run lint && npm run test:only",
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
+    "predeploy": "npm run build",
     "deploy": "npm run build"
   },
   "keywords": [],
@@ -25,6 +27,7 @@
     "@parcel/transformer-sass": "^2.12.0",
     "eslint": "^8.57.0",
     "eslint-plugin-node": "^11.1.0",
+    "gh-pages": "^6.3.0",
     "parcel": "^2.12.0",
     "prettier": "^3.3.2",
     "stylelint": "^16.7.0",
