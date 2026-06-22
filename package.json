@@ -1,17 +1,10 @@
 {
-  "name": "gulp-boilerplate",
+  "name": "landing-bang-olufsen",
   "version": "1.0.0",
   "description": "Frontend project built with Parcel",
-  "homepage": "https://rlysunets.github.io/bang-olufsen",
   "scripts": {
-    "init": "mate-scripts init",
-    "lint": "mate-scripts lint",
-    "test:only": "mate-scripts test",
-    "update": "mate-scripts update",
-    "postinstall": "npm run update",
-    "test": "npm run lint && npm run test:only",
     "start": "parcel index.html --open",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url /bang-olufsen/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
