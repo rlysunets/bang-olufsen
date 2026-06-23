@@ -19,6 +19,10 @@
     max-width: 152px;
     height: 16px;
 
+    img {
+      width: 100%;
+    }
+
     @include on-tablet {
       height: 24px;
       max-width: 228px;
