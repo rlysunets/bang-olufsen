@@ -2,9 +2,9 @@
 
 .top-bar {
   display: flex;
-  padding-block: var(--space-6);
   align-items: center;
   justify-content: space-between;
+  padding-block: var(--space-6);
 
   @include on-tablet {
     padding-block: var(--space-8);
