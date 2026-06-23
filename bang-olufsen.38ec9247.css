@@ -173,6 +173,10 @@ body {
   height: 16px;
 }
 
+.top-bar__logo img {
+  width: 100%;
+}
+
 @media (width >= 744px) {
   .top-bar__logo {
     max-width: 228px;

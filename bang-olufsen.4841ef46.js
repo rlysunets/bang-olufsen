@@ -715,7 +715,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"3Aj1C":[function(require,module,exports,__globalThis) {
 var _styleScss = require("../styles/style.scss");
-'use strict';
 
 },{"../styles/style.scss":"9v7yy"}],"9v7yy":[function() {},{}]},["huHYX","3Aj1C"], "3Aj1C", "parcelRequire45d2", {})
 
