@@ -1,10 +1,10 @@
 @use '../utils/mixins' as *;
 
 .top-bar {
-  padding-block: var(--space-6);
   display: flex;
-  justify-content: space-between;
+  padding-block: var(--space-6);
   align-items: center;
+  justify-content: space-between;
 
   @include on-tablet {
     padding-block: var(--space-8);
@@ -24,8 +24,8 @@
     }
 
     @include on-tablet {
-      height: 24px;
       max-width: 228px;
+      height: 24px;
     }
 
     @include hover(transform, scale(1.1));
